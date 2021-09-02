@@ -22,7 +22,7 @@ public class Restaurant {
         return currentTime.isAfter(openingTime) && currentTime.isBefore(closingTime);
     }
 
-    public LocalTime getCurrentTime(){ return  LocalTime.now(); }
+    public LocalTime getCurrentTime(){ return LocalTime.now(); }
 
     public List<Item> getMenu() {
         return this.menu;
